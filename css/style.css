@@ -9,6 +9,23 @@
 .color{
     color: white;
 }
-.margin-left{
-    margin-left: 210px;
+.position-2{
+   position: absolute;
+   
+}
+.position-1{
+    position: relative;
+    
+}
+.height{
+    height: 200px;
+}
+#footer{
+    position: relative;
+    min-height: 100px;
+}
+#footer2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }

@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.verde-bg{
+    background-color: green;
+}
+.color{
+    color: white;
+}
+.margin-left{
+    margin-left: 210px;
+}

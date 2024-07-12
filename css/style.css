@@ -1,31 +1,40 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.verde-bg{
-    background-color: green;
+/*************************************************
+    GENERAL STYLES
+*************************************************/
+
+body{
+    font-family: 'Montserrat', sans-serif;
 }
 .color{
+    color: black;
+}
+.color2{
     color: white;
 }
-.position-2{
-   position: absolute;
+.bg-verde{
+    background-color: green;
+}
+
+/************************************************
+    CUSTOM PROPERTIES
+************************************************/
+
+ :root{
+ 
+    /* COLOR BACKGROUND*/
    
-}
-.position-1{
-    position: relative;
-    
-}
-.height{
-    height: 200px;
-}
-#footer{
-    position: relative;
-    min-height: 100px;
-}
-#footer2{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
+       --first-color:#006CFA;
+       --second-color:#00E165;
+   
+    /* COLOR TEXT */ 
+   
+       --first-text:#FFFFFF;
+       --second-text:white;
+       --third-text:#6A6A6A;
+
+   /*   HEIGHT   */
+       
+    --header-height: 60px;
+
+    }
+   
